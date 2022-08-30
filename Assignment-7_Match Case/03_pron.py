@@ -40,4 +40,4 @@ match Userinp:
                 print("The Given Triangle is not equilateral")
 
     case "d":
-        exit
+        exit # exit
