@@ -7,12 +7,11 @@ def sumoddnum(num):
     if num==1:
         return 1
     else:
-        # if num%2!=0:
         n = (2*num-1) + sumoddnum(num-1)
         return n
 
 # call numInput function.
 x = numInput()
 
-# calling sumoddnum
+# calling sumoddnum.
 print(sumoddnum(x))

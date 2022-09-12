@@ -10,7 +10,7 @@ def sumof_num(n):
         r = n + sumof_num(n-1)
         return r
 
-# calling for number input function.
+# calling number input function.
 num = numInput()
 # functin call
 print(sumof_num(num))
